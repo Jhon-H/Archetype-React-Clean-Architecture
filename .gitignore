@@ -25,7 +25,7 @@ dist-ssr
 *.sw?
 
 # Envs
-/configuration/environment/dev.env
+/src/config/environment/.env.development
 
 # Coverage
 coverage
