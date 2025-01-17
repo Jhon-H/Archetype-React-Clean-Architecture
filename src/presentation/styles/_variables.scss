@@ -1,0 +1,16 @@
+//* Typographies
+$ff-primary-bold: 'Roboto-Bold', Helvetica, Arial, sans-serif;
+
+//* Shadows
+$shadow-xs: 0px 3px 6px 0px #00000029;
+
+//* Breakpoints
+$base-font-size: 16px;
+$breakpoint-xs: 0;
+$breakpoint-sm: calc(600px / $base-font-size * 1rem);
+$breakpoint-md: calc(900px / $base-font-size * 1rem);
+$breakpoint-lg: calc(1200px / $base-font-size * 1rem);
+$breakpoint-xl: calc(1536px / $base-font-size * 1rem);
+$breakpoint-xxl: calc(1536px / $base-font-size * 1rem);
+
+

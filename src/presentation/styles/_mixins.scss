@@ -1,0 +1,30 @@
+@use 'variables';
+
+@mixin fontFace($fontPath, $fontName) {
+  $path: 'fonts/' + $fontPath;
+
+  @font-face {
+    font-family: '#{$fontName}';
+    src: url($path + '.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+@mixin from($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin until($size) {
+  @media screen and (max-width: $size) {
+    @content;
+  }
+}
+
+/* Pixels to rem */
+@function size($target, $context: $base-font-size) {
+  @return calc($target / $context) * 1rem;
+}

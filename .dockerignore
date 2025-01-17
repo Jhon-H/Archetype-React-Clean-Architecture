@@ -1,0 +1,12 @@
+.git
+node_modules
+.eslint*
+.husky*
+.prettier*
+.git*
+.vscode
+README.md
+public
+.cache
+coverage
+docs
