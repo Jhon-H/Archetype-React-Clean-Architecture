@@ -23,10 +23,10 @@
         <li><a href="#instalación">Instalación</a></li>
       </ul>
     </li>
+    <li><a href="#estructura-de-carpetas">Estructura de carpetas</a></li>
     <li>
-      <a href="#documentacion">Documentación</a>
+      <a href="#documentación">Documentación</a>
       <ul>
-        <li><a href="#estructura-de-carpetas">Estructura de carpetas</a></li>
         <li><a href="#linters-y-git-hooks">Linters y Git hooks</a></li>
         <li><a href="#estilos">Estilos</a></li>
         <li><a href="#testing">Testing</a></li>
@@ -59,13 +59,13 @@ Para ejecutar este proyecto localmente, siga las instrucciones a continuación
 
 1. Clonar el repositorio
    ```sh
-   git clone <link-repositorio>
+   git clone https://github.com/Jhon-H/Archetype-React-Clean-Architecture
    ```
 2. Instalar las dependencias
    ```sh
-   cd <proyecto> && yarn add
+   cd Archetype-React-Clean-Architecture && yarn install
    ```
-3. Validar/Agregar las variables de entorno
+3. Crear el archivo y agregar las variables de entorno
    ```sh
    src/config/environment/.env.development
    ```
@@ -131,7 +131,7 @@ La aplicación se organiza en cinco módulos principales:
 
 Esta sección enumera y explica los estándares y guías propuestas en el proyecto.
 
-### Linter y Git hooks
+### Linters y Git hooks
 
 Este proyecto utiliza ESlint, Husky, lint-staged, commitlint y Prettier para garantizar la sincronización automática de las decisiones de codificación y mantener un código consistente.
 
