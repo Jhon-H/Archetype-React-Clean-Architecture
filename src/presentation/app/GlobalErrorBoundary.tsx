@@ -17,7 +17,6 @@ export class GlobalErrorBoundary extends Component<unknown, GlobalErrorBoundaryS
   }
 
   componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
-    // TODO: usar logger
     console.error('Error capturado por GlobalErrorBoundary:', error, errorInfo);
     this.setState({ error, errorInfo });
   }
